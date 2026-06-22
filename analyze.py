@@ -8,3 +8,8 @@ lowest = min(stocks)
 print('平均值:', average)
 print('最高:', highest)
 print('最低:', lowest)
+
+if average > 4:
+    print('表现良好')
+else:
+    print('表现一般')
